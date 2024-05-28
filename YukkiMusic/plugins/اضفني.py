@@ -1,5 +1,4 @@
 from pyrogram import filters
-from 
 from YukkiMusic.utils.database import get_client
 from YukkiMusic import app
 from YukkiMusic.core.userbot import assistants
