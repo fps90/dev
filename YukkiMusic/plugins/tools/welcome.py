@@ -190,7 +190,7 @@ async def get_welcome_func(_, message):
     )
 
 
-__MODULE__ = "Wᴇʟᴄᴏᴍᴇ"
+__MODULE__ = "⦗ اوامر التشغيل ⦘"
 __HELP__ = """
 /setwelcome - Reply this to a message containing correct
 format for a welcome message, check end of this message.
