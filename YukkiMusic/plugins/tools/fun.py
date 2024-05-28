@@ -64,14 +64,3 @@ async def bored_command(client, message):
     else:
         await message.reply("Fᴀɪʟᴇᴅ ᴛᴏ ғᴇᴛᴄʜ ᴀᴄᴛɪᴠɪᴛʏ.")
 
-
-__MODULE__ = "Fᴜɴ"
-__HELP__ = """
-/bored - ɢᴇᴛᴛɪɴɢ ʙᴏʀᴇ ᴛʀʏ ᴛʜɪs ᴄᴏᴍᴍᴀᴍᴅ
-/dice - sᴇɴᴅ ᴛʜᴇ 🎲 ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-/dart - sᴇɴᴅ ᴛʜᴇ 🎯 ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-/basketball - sᴇɴᴅ ᴛʜᴇ 🏀 ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-/football - sᴇɴᴅ ᴛʜᴇ ⚽ ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-/jackpot - sᴇɴᴅ ᴛʜᴇ 🎰 ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-/bowling - sᴇɴᴅ ᴛʜᴇ  🎳 ᴀɴᴅ ɢᴇᴛ ʏᴏᴜʀ sᴄᴏʀᴇ
-"""
