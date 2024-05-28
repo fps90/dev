@@ -51,6 +51,13 @@ def private_help_panel(_):
 	return buttons
 
 
+help_mark = InlineKeyboardMarkup(
+    [
+        [InlineKeyboardButton(text="Mᴜsɪᴄ Cᴏᴍᴍᴀɴᴅs", callback_data="only_music_help")],
+        [InlineKeyboardButton(text="Aʟʟ Cᴏᴍᴍᴀɴᴅs", callback_data="settingsback_helper")],
+        [InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")],
+    ]
+)
 
 #----------------------------> NOTE <-----------------------------#
 """
