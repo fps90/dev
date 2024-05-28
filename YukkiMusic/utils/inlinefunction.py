@@ -59,7 +59,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None):
                     ),
                 ),
                 EqInlineKeyboardButton(
-                    "Bᴀᴄᴋ",
+                    "⦗ الصفحة الرئيسية ⦘",
                     callback_data="settingsback_helper",
                 ),
                 EqInlineKeyboardButton(
