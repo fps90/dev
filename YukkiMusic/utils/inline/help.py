@@ -26,7 +26,7 @@ def first_page(_):
 
 # creating second partition of menu
 
-def second_page(_):
+def help_pannel(_):
 	controll_button = [InlineKeyboardButton(text="◁", callback_data=f"settings_back_helper_fixed"), InlineKeyboardButton(text="HOME", callback_data=f"settingsback_helper"), InlineKeyboardButton(text="▷", callback_data=f"settings_back_helper")]
 	second_page_menu = InlineKeyboardMarkup(
 		[
