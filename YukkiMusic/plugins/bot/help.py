@@ -15,7 +15,7 @@ from typing import Union
 from pyrogram import filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from config import BANNED_USERS, PHOTO, START_IMG_URL
+from config import BANNED_USERS, PHOTO, START_IMG_URL, SUPPORT_CHANNEL
 from strings import get_command, get_string, helpers
 from YukkiMusic import app
 from YukkiMusic.misc import SUDOERS
@@ -73,7 +73,7 @@ async def helper_private(client: app, update: Union[types.Message, types.Callbac
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = first_page(_)
-        await update.edit_message_text(_["help_1"].format(SUPPORT_CHAT), reply_markup=keyboard)
+        await update.edit_message_text(_["help_1"].format(SUPPORT_CHANNEL), reply_markup=keyboard)
     else:
         try:
             await update.delete()
