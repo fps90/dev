@@ -60,35 +60,14 @@ def help_pannel(_, START: Union[bool, int] = None):
     return upl
 
 
+# Just an common button
 def help_back_markup(_):
-    upl = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(
-                    text=_["BACK_BUTTON"], callback_data=f"settings_back_helper"
-                ),
-                InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data=f"close"),
-            ]
-        ]
-    )
-    return upl
+	upl = InlineKeyboardMarkup([[InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data=f"settings_back_helper")]])
+	return upl
 
 
+# Ease of access 
 def private_help_panel(_):
-    buttons = [
-        [
-            InlineKeyboardButton(
-                text=_["S_B_1"], url=f"https://t.me/{app.username}?start=help"
-            )
-        ],
-    ]
-    return buttons
+	buttons = [[InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/{app.username}?start=help")]]
+	return buttons
 
-
-help_mark = InlineKeyboardMarkup(
-    [
-        [InlineKeyboardButton(text="Mᴜsɪᴄ Cᴏᴍᴍᴀɴᴅs", callback_data="only_music_help")],
-        [InlineKeyboardButton(text="Aʟʟ Cᴏᴍᴍᴀɴᴅs", callback_data="shikharbro")],
-        [InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")],
-    ]
-)
