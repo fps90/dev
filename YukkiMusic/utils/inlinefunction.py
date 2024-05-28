@@ -56,11 +56,7 @@ def paginate_modules(page_n, module_dict, prefix, chat=None):
                     callback_data="{}_prev({})".format(
                         prefix,
                         modulo_page - 1 if modulo_page > 0 else max_num_pages - 1,
-                    ),
-                ),
-                EqInlineKeyboardButton(
-                    "⦗ الصفحة الرئيسية ⦘",
-                    callback_data="settingsback_helper",
+                    ),                
                 ),
                 EqInlineKeyboardButton(
                     "⦘",
