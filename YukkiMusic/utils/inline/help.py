@@ -71,3 +71,10 @@ def private_help_panel(_):
 	buttons = [[InlineKeyboardButton(text=_["S_B_4"], url=f"https://t.me/{app.username}?start=help")]]
 	return buttons
 
+help_mark = InlineKeyboardMarkup(
+    [
+        [InlineKeyboardButton(text="Mᴜsɪᴄ Cᴏᴍᴍᴀɴᴅs", callback_data="only_music_help")],
+        [InlineKeyboardButton(text="Aʟʟ Cᴏᴍᴍᴀɴᴅs", callback_data="shikharbro")],
+        [InlineKeyboardButton(text="〆 ᴄʟᴏsᴇ 〆", callback_data="close")],
+    ]
+)
